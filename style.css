@@ -1,111 +1,74 @@
 
-/*:root[data-theme="light"] {
-    --var-body-color: #FFF;
-    --header-logo: #414142;
-    --menu__link:#40A3F8;
-    --button:#FFF;
-    --button-bg-color:rgb(64, 163, 248);
-    --button-bg-color-hover:rgb(69, 129, 180);
-    --button-color-hover:rgb(64, 163, 248);
-    --button-bg-color-hover2:rgb(255, 255, 255);
-    --search-bg0color:rgba(124, 195, 255, 0.1);
-    --body-search__titl-color:#3E3E3E;
-    --body-search__text-color:rgba(117, 117, 117, 0.46);
-    --input-bg:rgba(245, 246, 250, 0.52);
-    --option-sear-bg:rgba(245, 246, 250, 0.52);
-    --solution-bg:#FFF;
-    --titl-color:#3E3E3E;
-    --items-solution__titl-color:#3D3D3F;
-    --items-solution__text-color:rgba(0, 0, 0, 0.5);
-    --icon1-bg:rgba(56, 175, 255, 0.1);
-    --icon2-bg:rgba(56, 175, 255, 0.1);
-    --icon3-bg:rgba(56, 175, 255, 0.1);
-    --doctor-bg:#FFF;
-    --body-doctor-bg:#FEFEFE;
-    --titl-doctor-color:#3D3D3F;
-    --item-doctor__text-color:#A0A2B3;
-    --item-doctor__number-color:#636481;
-    --footer-doctor-color:#3D3D3F;
-    --main-dictor__titl-color:#3D3D3F;
-    --main-dictor__text-color:rgba(61, 61, 63, 0.7);
-    --main-dictor__button-color:#FFF;
-    --services-doctor__servis-color:#3D3D3F;
-    --header-service__titl-color:#3D3D3F;
-    --header-service__text-color:rgba(61, 61, 63, 0.7);
-    --item-service-bg:linear-gradient(138deg, rgba(254, 254, 254, 0) 0%, #F9F9F9 0.01%, rgba(254, 254, 254, 0.51) 100%);
-    --item-service-bg-hover:#FFF;
-    --item-service__titl-color:#3D3D3F;
-    --item-service__text-color:#999;
-    --item__online-bg:rgba(254, 254, 254, 0.51);
-    --item__img:#C4C4C4;
-    --clients__button-one-bg:rgba(64, 162, 248, 0.3647058824);
-    --item-clients__text-color:#454D5D;
-    --body-bg:#FFF;
-    --menu__link-color:#373737;
-    --select-bg:##FAFAFC;
-    --select-color:#4D4C45;
-    --item-clients-bg:#FAFAFA;
-    --input_email_color:#FFF;
-  }
-  
-  :root[data-theme="dark"] {
-    --var-body-color: #FFF; 
-    --header-logo: #FFF;; 
-    --menu__link: #FFFFFF;
-    --button: #222430;
-    --button-bg-color: rgb(64, 163, 248);
-    --button-bg-color-hover: rgb(69, 129, 180);
-    --button-color-hover: rgb(255, 255, 255);
-    --button-bg-color-hover2: rgb(64, 163, 248); 
-    --search-bg0color: rgba(0, 0, 0, 0.1); 
-    --body-search__titl-color: #FFF; 
-    --body-search__text-color: rgba(255, 255, 255, 0.46); 
-    --input-bg: rgba(0, 0, 0, 0.52); 
-    --option-sear-bg: rgba(0, 0, 0, 0.52); 
-    --solution-bg: #222430;; 
-    --titl-color: #FFF; 
-    --items-solution__titl-color: #FFF; 
-    --items-solution__text-color: rgba(255, 255, 255, 0.5); 
-    --icon1-bg: rgba(0, 0, 0, 0.1); 
-    --icon2-bg: rgba(0, 0, 0, 0.1); 
-    --icon3-bg: rgba(0, 0, 0, 0.1); 
-    --doctor-bg: #222430;;
-    --body-doctor-bg: #3D3D3F; 
-    --titl-doctor-color: #FFF; 
-    --item-doctor__text-color: #A0A2B3;
-    --item-doctor__number-color: #636481; 
-    --footer-doctor-color: #FFF; 
-    --main-dictor__titl-color: #FFF; 
-    --main-dictor__text-color: rgba(255, 255, 255, 0.7);
-    --main-dictor__button-color: #222430;; 
-    --services-doctor__servis-color: #9D9D9F;
-    --header-service__titl-color: rgba(255, 255, 255, 0.7);
-    --header-service__text-color: rgba(255, 255, 255, 0.7); 
-    --item-service-bg: linear-gradient(138deg, rgba(0, 0, 0, 0) 0%, #0E0E0E 0.01%, rgba(0, 0, 0, 0.51) 100%); 
-    --item-service-bg-hover: #222430;; 
-    --item-service__titl-color: #FFF; 
-    --item-service__text-color: #999;
-    --item__online-bg: rgba(0, 0, 0, 0.51); 
-    --item__img: #C4C4C4; 
-    --clients__button-one-bg: rgba(64, 162, 248, 0.3647058824); 
-    --item-clients__text-color: rgba(255, 255, 255, 0.7); 
-    --body-bg:#222430;
-    --menu__link-color:#EAEAEA;
-    --select-bg: #101117;
-    --select-color: #B2B3BA;
-    --item-clients-bg: #050505;
-    --input_email_color:#222430;
-  }*/
-/*.dark-theme.some-div{
-    background-color: #121139;
-    /*color: #333;
-  }
-  
-  /* Стили для темной темы 
-.light-theme.some-div{
-    background-color: #8503ef;
-    /*color: white;
+/*.play{
+    position: absolute;
+}
+#playPauseButton {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    outline: none;
+}
+
+#playPauseButton.pause {
+    background-color: #e74c3c;
+}
+
+#playPauseButton.play::after {
+    content: "▶️";
+}
+
+#playPauseButton.pause::after {
+    content: "⏸️";
 }*/
+
+.intro-btn:hover{
+    transform: scale(1.25);
+}
+.intro-btn, .subcase-btn, .translate-btn, .swith-theme-btn{
+    border: 4px solid var(--stroke-gradient, #812DE2);
+    background: rgba(18, 17, 57, 0.20);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%; /* 18px */
+    text-transform: uppercase;
+}
+.intro-btn.light-theme, .subcase-btn.light-theme, .translate-btn.light-theme, .swith-theme-btn.light-theme{
+    border: 4px solid var(--stroke-gradient, rgb(251, 245, 252));
+    background: rgba(18, 17, 57, 0.20);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%; /* 18px */
+    text-transform: uppercase;
+}
+.intro-btn{
+    width:274px;
+    height:74px;
+    object-position: inset(0 0 274 74);
+}
+.subcase-btn{
+    width:415px;
+    height: 73px;;
+    object-position: inset(0 0 415 73);
+}
+.translate-btn{
+    width:200px;
+    height:60px;
+}
+.swith-theme-btn{
+    width:200px;
+    height:60px;
+}
+.custom-btn:hover {
+  background-color: rgba(58, 73, 249, 0.1);
+}
 body{
     background-color: #121139;
     color: #ffffff;
@@ -152,6 +115,19 @@ h2{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+h2.light-theme{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%; 
+    text-transform: capitalize;
+    background: #FFF;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 h3{
     font-family: 'Poppins', sans-serif;
     font-size: 30px;
@@ -176,6 +152,8 @@ h4{
     top: 0px;
     left: 90px;
     right: 90px;
+    display: flex;
+    gap: 40px;
 }
 .language__icon{
     position: absolute;
@@ -268,8 +246,15 @@ h4{
     padding-top: 30px;
     font-weight: 600px;
 }
+.audio{
+    width: 500px;
+    height: 54px;
+    transform:scale(1.5);
+    padding-left: 80px;
+}
 .consulation_container{
     padding-left: 500px;
+    display:grid;
 }
 .consulation_title{
     width: 724px;
@@ -314,6 +299,10 @@ h4{
 }
 .deliver__step{
     margin-right: 40px;
+}
+.deliver__step.light-theme rect:first-child{
+    stroke: #FFFFFF;
+    fill:#6c06bf;
 }
 .text__inside__step__1,
 .text__inside__step__2,
@@ -405,10 +394,24 @@ h4{
     text-anchor: middle;
     fill:#FFFFFF;
 }
+.finance__comment__1.light-theme rect:first-child{
+    fill: #6c06bf !important; /* Новый цвет заливки */
+    stroke: white !important;
+    position: absolute;
+    top:120px;
+    right: 300px;
+}
 .finance__comment__1{
     position: absolute;
     top:120px;
     right: 300px;
+}
+.finance__comment__2.light-theme rect:first-child {
+    fill: #6c06bf !important; 
+    stroke: white !important;
+    position: absolute;
+    bottom: 0px;
+    left: 300px;
 }
 .finance__comment__2{
     position: absolute;
@@ -416,14 +419,35 @@ h4{
     bottom: 0px;
     left: 300px;
 }
-.finance__comment__3{
+.finance__comment__3.light-theme rect:first-child {
+    fill: #6c06bf !important; /* Новый цвет заливки */
+    stroke: white !important;
     position: absolute;
     bottom:0px;
     right: 300px;
 }
+.finance__comment__1.light-theme rect:nth-child(2), 
+.finance__comment__2.light-theme rect:nth-child(2), 
+.finance__comment__3.light-theme rect:nth-child(2) {
+    stroke: #FFFFFF;
+}
+.finance__comment__3{
+    position: absolute;
+    bottom:0px;
+    right: 300px;
+    fill: white;
+}
 footer{
     position: absolute;
     background: #121139;
+    padding-top:40px;
+    width: 100%;
+    z-index: 1000;
+    margin-top: -30px;
+}
+footer.light-theme{
+    position: absolute;
+    background: #6c06bf;
     padding-top:40px;
     width: 100%;
     z-index: 1000;
